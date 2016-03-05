@@ -1,0 +1,75 @@
+2016-03-05 13:40:51,037 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-05 13:40:51,038 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jonathan/SD/Java/JSGame/JavaScriptGame/src/main/resources
+2016-03-05 13:40:51,040 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-05 13:40:51,042 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jonathan/SD/Java/JSGame/JavaScriptGame/src/test/resources
+2016-03-05 13:40:52,070 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-05 13:40:52,071 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jonathan/SD/Java/JSGame/JavaScriptGame/src/main/resources
+2016-03-05 13:40:52,073 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-05 13:40:52,074 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jonathan/SD/Java/JSGame/JavaScriptGame/src/test/resources
+2016-03-05 13:50:17,339 [Framework stop] ERROR o.e.m.c.i.p.r.ProjectRegistryReader - Can't write workspace state
+java.io.FileNotFoundException: /Users/Jonathan/SD/Java/JSGame/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_74]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[na:1.8.0_74]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[na:1.8.0_74]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[na:1.8.0_74]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryReader.writeWorkspaceState(ProjectRegistryReader.java:127) ~[org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.writeWorkspaceState(ProjectRegistryManager.java:924) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.internal.MavenPluginActivator.stop(MavenPluginActivator.java:296) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827) [org.eclipse.osgi_3.10.102.v20160118-1700.jar:na]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1) [org.eclipse.osgi_3.10.102.v20160118-1700.jar:na]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_74]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:820) [org.eclipse.osgi_3.10.102.v20160118-1700.jar:na]
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:955) [org.eclipse.osgi_3.10.102.v20160118-1700.jar:na]
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:323) [org.eclipse.osgi_3.10.102.v20160118-1700.jar:na]
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626) [org.eclipse.osgi_3.10.102.v20160118-1700.jar:na]
+	at org.eclipse.osgi.container.Module.stop(Module.java:488) [org.eclipse.osgi_3.10.102.v20160118-1700.jar:na]
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1623) [org.eclipse.osgi_3.10.102.v20160118-1700.jar:na]
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1542) [org.eclipse.osgi_3.10.102.v20160118-1700.jar:na]
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:248) [org.eclipse.osgi_3.10.102.v20160118-1700.jar:na]
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:144) [org.eclipse.osgi_3.10.102.v20160118-1700.jar:na]
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626) [org.eclipse.osgi_3.10.102.v20160118-1700.jar:na]
+	at org.eclipse.osgi.container.Module.stop(Module.java:488) [org.eclipse.osgi_3.10.102.v20160118-1700.jar:na]
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:186) [org.eclipse.osgi_3.10.102.v20160118-1700.jar:na]
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159) [org.eclipse.osgi_3.10.102.v20160118-1700.jar:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_74]
+2016-03-05 14:08:31,553 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: JSGameJPA:JSGameJPA:0.0.1-SNAPSHOT @ /Users/Jonathan/SD/Java/JSGame/JSGameJPA/pom.xml.
+2016-03-05 14:08:31,554 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: JSGameJPA:JSGameJPA:0.0.1-SNAPSHOT @ /Users/Jonathan/SD/Java/JSGame/JSGameJPA/pom.xml.
+2016-03-05 14:08:32,547 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-05 14:08:32,562 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-03-05 14:08:32,576 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-05 14:08:32,577 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jonathan/SD/Java/JSGame/JSGameJPA/src/test/resources
+2016-03-05 14:08:33,313 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: JSGameJPA:JSGameJPA:0.0.1-SNAPSHOT @ /Users/Jonathan/SD/Java/JSGame/JSGameJPA/pom.xml.
+2016-03-05 14:08:33,423 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: EventTracker:EventTracker:0.0.1-SNAPSHOT @ /Users/Jonathan/SD/Java/JSGame/JavaScriptGame/pom.xml.
+2016-03-05 14:08:40,301 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-05 14:08:40,308 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-03-05 14:08:40,319 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-05 14:08:40,319 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jonathan/SD/Java/JSGame/JSGameJPA/src/test/resources
+2016-03-05 14:08:41,055 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-05 14:08:41,056 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jonathan/SD/Java/JSGame/JavaScriptGame/src/main/resources
+2016-03-05 14:08:41,057 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-05 14:08:41,058 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jonathan/SD/Java/JSGame/JavaScriptGame/src/test/resources
+2016-03-05 14:09:17,332 [Worker-18] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for JavaScriptGame
+2016-03-05 14:09:17,763 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-05 14:09:17,764 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-03-05 14:09:17,766 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-05 14:09:17,767 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jonathan/SD/Java/JSGame/JSGameJPA/src/test/resources
+2016-03-05 14:09:17,903 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-05 14:09:17,904 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jonathan/SD/Java/JSGame/JavaScriptGame/src/main/resources
+2016-03-05 14:09:17,905 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-05 14:09:17,906 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jonathan/SD/Java/JSGame/JavaScriptGame/src/test/resources
+2016-03-05 14:09:17,906 [Worker-9] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of JavaScriptGame
+2016-03-05 14:09:17,907 [Worker-9] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for JavaScriptGame
+2016-03-05 14:09:17,917 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.5 is missing, no dependency information available
+2016-03-05 14:09:17,929 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-05 14:09:51,925 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-05 14:09:51,931 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-03-05 14:09:51,934 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-05 14:09:51,937 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jonathan/SD/Java/JSGame/JSGameJPA/src/test/resources
+2016-03-05 14:10:14,439 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-05 14:10:14,440 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jonathan/SD/Java/JSGame/JavaScriptGame/src/main/resources
+2016-03-05 14:10:14,441 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-05 14:10:14,442 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jonathan/SD/Java/JSGame/JavaScriptGame/src/test/resources
+2016-03-05 14:10:19,195 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-05 14:10:19,196 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jonathan/SD/Java/JSGame/JavaScriptGame/src/main/resources
+2016-03-05 14:10:19,197 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-03-05 14:10:19,198 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jonathan/SD/Java/JSGame/JavaScriptGame/src/test/resources
